@@ -110,6 +110,7 @@ Windows Registry Editor Version 5.00
 ![3.png](https://i.loli.net/2018/11/14/5bec21a444058.png)  
 
 然后将生成的 `launch.json` 文件代码删除,换成下面的并保存  
+
 ```json
 {
 "version": "0.2.0",
@@ -137,8 +138,10 @@ Windows Registry Editor Version 5.00
     }]
 }
 ```  
+
 4. 按F5调试,此时肯定会报错,打开新生成的 `tasks.json` 文件  
 将生成的 `tasks.json` 文件代码删除,换成下面的并保存  
+
 ```json
 {
     "version": "2.0.0",
@@ -170,6 +173,7 @@ Windows Registry Editor Version 5.00
     ]
 }
 ```  
+
 5. 此时再按下F5,即可看到程序成功运行  
 ![4.png](https://i.loli.net/2018/11/14/5bec21a185487.png)  
 6. 大功告成!  
