@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: DIOLeo
+title: DIO's Blog
 subtitle: 愿取一瓢饮,留予后来人
 #description: 
 author: DIO
@@ -20,7 +20,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: DIO's Blog
+SEOTitle: Welcome to DIO Studio
 header-img: img/HomeBg.jpg
 email: diodev@outlook.com
 description: ""
@@ -30,7 +30,7 @@ keyword: ""
 # RSS: false
 weibo_username:     
 zhihu_username:     
-github_username:    DIOLeo
+github_username: DIOLeo
 twitter_username:   
 facebook_username:  
 linkedin_username:  
@@ -96,7 +96,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: 
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

@@ -9,23 +9,26 @@ catalog: true
 header-img: "VSCode-PortableBg.jpg"
 tags: 
     - Windows
+    - Software
 ---
+
+VSCode 出了有一段时间了,因为太忙,没有顾上体验,最近1.29版本发布,下载下来体验了一番,就果断把 Sublime Text 放在了第二梯队  
+VSCode 太好用了, electron 太棒了  
+于是着手准备 VSCode 便携化工作,网上很多相关资料,借鉴学习,在此记录.  
 
 # Overview 摘要  
 
 随意转载,注明出处 https://github.com/DIOLeo/VSCode-Portable-WithMinGWw64  
-如果您对此文档有什么意见或建议欢迎提出  
-联系方式 diodev@outlook.com  
 
 ***
 
 ## Feature 特点
-* 解压即用,无需配置环境变量
-* 集成 MinGW-w64 v6.0.0 ( VSCode版本 V1.29.0 )
-* 集成 cpptools 0.20.1
-* 集成 vscode-language-pack-zh-hans 1.29.2
-* 可右键以`VSCode`打开
-* 可自由更新
+* 解压即用,无需配置环境变量  
+* 集成 MinGW-w64 v6.0.0 ( VSCode版本 V1.29.0 )  
+* 集成 cpptools 0.20.1  
+* 集成 vscode-language-pack-zh-hans 1.29.2  
+* 可右键以`VSCode`打开  
+* 可自由更新  
 
 ## Install 安装方法
 1. 下载压缩包  
@@ -33,7 +36,7 @@ tags:
 提取码：ac25  
 2. 解压缩(非中文目录)  
 3. 运行安装目录下`Start.bat`  
-> 不要直接运行 Code.exe !!!
+> 不要直接运行 Code.exe !!!  
 
 ## History 更新日志  
 * V1.0 [2018.11.14]  
@@ -50,7 +53,7 @@ tags:
 在 `User` 文件夹下创建 `.vscode` , `AppData` , `Desktop` 文件夹  
 在 `.vscode` 文件夹下创建 `extensions` 文件夹  
 在 `AppData` 文件夹下创建 `Local` , `Roaming` 文件夹  
-> 再强调一遍:耐心和细心
+> 再强调一遍:耐心和细心  
 3. 回到安装目录,在安装目录中新建一个TXT文件夹,将下列代码复制并保存,更改文件名后缀为`.dat`  
 
 ```dos
@@ -100,7 +103,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
 @="\"D:\\VSCode\\VSCode-x64\\Start.bat\" \"%V\""  
-```  
+```
 
 ## Hello World 测试  
 1. 打开VSCode,点击左侧文件标志,打开文件夹,(!注意,VSCode只支持文件夹下构建程序,从VC6.0过渡过来的需要适应一下!)  
@@ -137,7 +140,7 @@ Windows Registry Editor Version 5.00
         ]
     }]
 }
-```  
+```
 
 4. 按F5调试,此时肯定会报错,打开新生成的 `tasks.json` 文件  
 将生成的 `tasks.json` 文件代码删除,换成下面的并保存  
@@ -172,7 +175,7 @@ Windows Registry Editor Version 5.00
         }
     ]
 }
-```  
+```
 
 5. 此时再按下F5,即可看到程序成功运行  
 ![4.png](https://i.loli.net/2018/11/14/5bec21a185487.png)  
