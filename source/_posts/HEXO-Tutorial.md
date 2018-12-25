@@ -180,4 +180,4 @@ Jekyll 对 Markdown 支持得并不是很好
 刚才 `hexo generate` 执行成功过后,把博客目录下 `public` 文件夹里的东西复制出来  
 粘贴到你创建的仓库的根目录  
 大胆地粘贴  
-这个时候Github Desktop会自动检测到你的文件有改动,这时填写并 `Push` 就可以了!就像这样:  
+这个时候Github Desktop会自动检测到你的文件有改动,这时填写 `Summary` 并 `Push` 就可以了!就像这样:  
