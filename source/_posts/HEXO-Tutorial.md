@@ -181,3 +181,13 @@ Jekyll 对 Markdown 支持得并不是很好
 粘贴到你创建的仓库的根目录  
 大胆地粘贴  
 这个时候Github Desktop会自动检测到你的文件有改动,这时填写 `Summary` 并 `Push` 就可以了!就像这样:  
+{% asset_img GithubDesktopPush.png GithubDesktopPush %}  
+
+网速状况时好时坏,稍等一会儿输入你的博客网址(https://用户名.github.io)就能看到属于自己的网站了!  
+至于详细的其他的各种配置,自行查阅[官方文档](https://hexo.io/zh-cn/docs/)是最佳选择,也可广泛借助互联网的力量  
+
+***  
+
+# 参考文献  
+> HEXO https://hexo.io/zh-cn/docs/  
+

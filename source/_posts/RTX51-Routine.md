@@ -19,7 +19,7 @@ tags:
 # Overview 摘要  
 
 给所有正在学或者想要学习 `RTX51 Tiny` 的朋友提供一些自己写的程序 仅供参考  
-您有什么好的意见或者建议欢迎指出 联系方式 diodev@outlook.com  
+您有什么好的意见或者建议欢迎指出  
 如果没有接触过RTX51的朋友建议先阅读官方手册 https://github.com/DIOLeo/RTX51-Tiny-ChineseDoc  
 
 # Contents 目录  

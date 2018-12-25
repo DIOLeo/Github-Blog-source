@@ -20,8 +20,7 @@ tags:
 此文档根据 `RTX51 Tiny` 官方文档翻译而制,如果您有Keil 51的编译环境那么英文文件存放在 `\C51\Hlp\tr51.chm`  
 使用环境 `Chmeditor 3.0` https://chmeditor.com/  
 随意转载,注明出处 https://github.com/DIOLeo/RTX51-Tiny-ChineseDoc  
-如果您对此文档有什么意见或建议欢迎提出  
-联系方式 diodev@outlook.com  
+如果您对此文档有什么意见或建议欢迎提出    
 
 ***
 
