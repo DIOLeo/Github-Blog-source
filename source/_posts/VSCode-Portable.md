@@ -16,6 +16,8 @@ VSCode 出了有一段时间了,因为太忙,没有顾上体验,最近1.29版本
 VSCode 太好用了, electron 太棒了  
 于是着手准备 VSCode 便携化工作,网上很多相关资料,借鉴学习,在此记录.  
 
+***  
+
 # Overview 摘要  
 
 随意转载,注明出处 https://github.com/DIOLeo/VSCode-Portable-WithMinGWw64  
