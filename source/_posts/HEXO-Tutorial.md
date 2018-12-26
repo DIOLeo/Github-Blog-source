@@ -135,15 +135,16 @@ https://hexo.io/zh-cn/
 
 ## 自定义网页其他设置  
 
-依旧是 `_config.yml` ,里面的配置都是以键值对形式出现的,各自的作用基本上都有注释标注出来了,自行查看,大胆修改  
+1. 依旧是 `_config.yml` ,里面的配置都是以键值对形式出现的,各自的作用基本上都有注释标注出来了,自行查看,大胆修改  
 
 ## 新建文章  
 
-在博客目录新建终端,输入 `hexo new post 文章名字(英文)`  
+1. 在博客目录新建终端,输入 `hexo new post 文章名字(英文)`  
 这个时候在 `source\_posts` 文件夹下就有 `文章名字.md` 的文件  
 看到这里有的朋友就懂了  
 对, `HEXO` 原生支持 `Markdown`  
-至于 `Markdown` 怎么写,请参考下面文章  
+
+2. 至于 `Markdown` 怎么写,请参考下面文章  
 http://www.markdown.cn/#editor  
 https://sspai.com/post/25137  
 http://younghz.github.io/Markdown/  
@@ -155,16 +156,17 @@ http://md.barretlee.com/
 
 ## 生成网页  
 
-在博客目录新建终端,输入  
+1. 在博客目录新建终端,输入  
 ```
 hexo clean      //清除旧生成文件,其实就是删除public文件夹和清除db.json文件里无用的内容
 hexo generate   //也可简写成hexo g,这一步就是生成我们要的静态网页,这一步执行成功后去public文件夹下看就有很多网页了
 hexo server     //也可简写成hexo s,这一步是用来本地预览我们做好的网站
 ```
 
-`hexo server` 命令执行成功后,浏览器打开http://localhost:4000/即可看到你的博客长啥样  
+2. `hexo server` 命令执行成功后,就可在浏览器中输入以下网址本地预览  
+http://localhost:4000/  
 
-> 这个时候来解释一下啊为什么用 HEXO 不用 Jekyll  
+> 这个时候来解释一下为什么用 HEXO 不用 Jekyll  
 Jekyll 写的文章多的时候太慢了,HEXO 更快一点  
 Jekyll 环境比较难搭建  
 Jekyll 对 Markdown 支持得并不是很好  
@@ -177,13 +179,13 @@ Jekyll 对 Markdown 支持得并不是很好
 
 > 激动人心的时刻马上就要来临!  
 
-刚才 `hexo generate` 执行成功过后,把博客目录下 `public` 文件夹里的东西复制出来  
+1. 刚才 `hexo generate` 执行成功过后,把博客目录下 `public` 文件夹里的东西复制出来  
 粘贴到你创建的仓库的根目录  
 大胆地粘贴  
 这个时候Github Desktop会自动检测到你的文件有改动,这时填写 `Summary` 并 `Push` 就可以了!就像这样:  
 {% asset_img GithubDesktopPush.png GithubDesktopPush %}  
 
-网速状况时好时坏,稍等一会儿输入你的博客网址(https://用户名.github.io)就能看到属于自己的网站了!  
+2. 网速状况时好时坏,稍等一会儿输入你的博客网址(https://用户名.github.io)就能看到属于自己的网站了!  
 至于详细的其他的各种配置,自行查阅[官方文档](https://hexo.io/zh-cn/docs/)是最佳选择,也可广泛借助互联网的力量  
 
 ***  
