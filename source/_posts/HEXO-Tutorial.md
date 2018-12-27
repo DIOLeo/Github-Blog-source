@@ -81,14 +81,15 @@ Visual Studio Code:https://code.visualstudio.com/
 解压缩刚才下好的Node.JS压缩包,在根目录创建 `node_global` 和 `node_cache` 两个文件夹  
 添加环境变量 X:\*\NodeJS\node_global\ 和 X:\*\NodeJS\  
 运行 `cmd`,输入 `node -v` 和 `npm -v` 看到版本号说明配置成功  
-新建记事本文件,将下列代码粘贴进去并保存,文件名重命名为 `.npmrc`  
+* 新建记事本文件,将下列代码粘贴进去并保存,文件名重命名为 `.npmrc`  
+然后将这个文件复制到 `C:\Users\用户名\` 下面  
 
 ```
-prefix=D:\NodeJS\node_global
-cache=D:\NodeJS\node_cache
+prefix=D:\node-v6.11.0-win-x64\node_global
+cache=D:\node-v6.11.0-win-x64\node_cache
 ```
 
-或者管理员方式运行 `cmd`,依次输入如下命令(自行更换文件路径)  
+* 或者管理员方式运行 `cmd`,依次输入如下命令(自行更换文件路径)  
 
 ```
 npm config set prefix "D:\node-v6.11.0-win-x64\node_global"
