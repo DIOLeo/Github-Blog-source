@@ -19,6 +19,29 @@ tags:
 
 ***  
 
+# Windows10 禁用 Windows Update  
+
+1. 管理员身份运行cmd  
+2. 分别复制下面两行代码,回车运行  
+3. 1803之前版本 Windows10 系统只需要第一行  
+
+```dos
+REG add "HKLM\SYSTEM\CurrentControlSet\Services\wuauserv" /v "Start" /t REG_DWORD /d "4" /f
+REG add "HKLM\SYSTEM\CurrentControlSet\Services\WaaSMedicSvc" /v "Start" /t REG_DWORD /d "4" /f
+```
+
+> 在Windows操作系统中,服务项一般在以下注册表项中:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\
+每一个服务都由其服务名称设立单独文件夹,其中 `Start` 一项数字意义说明:  
+1 = 自动(延迟启动)  
+2 = 自动  
+3 = 手动  
+4 = 禁用  
+想单独禁用其他服务原理相同,只需要查看服务名称将上述命令替换即可  
+1803版本之后,微软新添加 `windows update medic service` 服务,它就像一个保镖,保护被关闭的 `windows update` 服务再次开启,所以两个服务都关闭才算彻底禁用更新  
+
+***
+
 # 更改系统字体 微软雅黑 为 宋体  
 
 > **请注意,此注册表会导致 微软雅黑 字体无法使用!**  
