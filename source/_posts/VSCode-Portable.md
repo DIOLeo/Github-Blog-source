@@ -1,13 +1,28 @@
-<font face="黑体">
+---
+layout: "post"
+title: "Visual Studio Code"
+subtitle: "中文绿色便携版"
+description: "VSCode Portable Version"
+date: 2018-11-26 07:20:52
+author: DIO
+catalog: true
+header-img: "VSCode-PortableBg.jpg"
+tags: 
+    - Windows
+    - Software
+---
 
-# VSCode 便携版(集成C/C++编译器)
-    VSCode Portable WithMinGWw64  
-    本文更新于2019.06.30  
-    随意转载,注明出处 https://github.com/DIOLeo/VSCode-Portable-WithMinGWw64  
-    如果您对此文档有什么意见或建议欢迎提出  
-    联系方式 diodev@outlook.com  
+VSCode 出了有一段时间了,因为太忙,没有顾上体验,最近1.29版本发布,下载下来体验了一番,就果断把 Sublime Text 放在了第二梯队  
+VSCode 太好用了, electron 太棒了  
+于是着手准备 VSCode 便携化工作,网上很多相关资料,借鉴学习,在此记录.  
 
-****
+***  
+
+# Overview 摘要  
+
+随意转载,注明出处 https://github.com/DIOLeo/VSCode-Portable-WithMinGWw64  
+
+***
 
 ## Feature 特点  
 * 解压即用,无需配置环境变量
@@ -227,4 +242,3 @@ Windows Registry Editor Version 5.00
 > VSCode官方文档 https://code.visualstudio.com/docs  
 CSDN_ID:黑猫崽儿 https://blog.csdn.net/c_duoduo/article/details/52083494  
 DOS命令大全 https://www.cnblogs.com/zqifa/p/windows-dos-1.html  
-</font>
