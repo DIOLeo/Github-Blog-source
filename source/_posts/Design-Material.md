@@ -58,4 +58,10 @@ tags:
 * [Radio 366](http://www.radio366.com/tv/)  
 * [球头条](https://www.qttzb.com/)  
 
+## 国内镜像  
+
+* [搜狐](http://mirrors.sohu.com/)  
+* [网易](http://mirrors.163.com/)  
+* [阿里云](http://mirrors.aliyun.com/)  
+
 > 未完待续
