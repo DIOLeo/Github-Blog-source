@@ -9,7 +9,7 @@ catalog: true
 header-img: "Windows-Tool.jpg"
 tags: 
     - Windows
-    - Software
+    - Collection
 ---
 
 做系统是常事,捣鼓系统设置也是常事,随着时间流淌积累了越来越多的实用工具  
