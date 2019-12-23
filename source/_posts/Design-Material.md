@@ -23,7 +23,7 @@ tags:
 
 * [Material UI](https://www.materialui.co/)  
 * 莫兰迪色卡  
-![莫兰迪配色](Design-Material/Morandi.jpg)  
+![莫兰迪配色](Morandi.jpg)  
 
 ## AE 模板  
 
