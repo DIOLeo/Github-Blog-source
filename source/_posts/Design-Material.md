@@ -50,8 +50,9 @@ tags:
 ## APK下载  
 
 * [APKGK](https://apkgk.com/)  
-* [APK.support](https://apk.support/)  
+* [APK Combo](https://apkcombo.com/zh-cn/)  
 * [APK Fab](https://apkfab.com/)  
+* [APK Turbo](https://www.apkturbo.com/)  
 
 ## 电视直播  
 
